@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^growple\.com [NC]
+RewriteRule ^(.*)$ http://www.growple.com/challenge/demo [L,R=301]

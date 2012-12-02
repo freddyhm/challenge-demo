@@ -1,0 +1,964 @@
+
+.nivoSlider {
+    position:relative;
+    width:618px; /* Change this to your images width */
+    height:246px; /* Change this to your images height */
+    background:url(images/loading.gif) no-repeat 50% 50%;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+
+/* Common Elements */
+
+.btnGo{
+
+    margin: 345px 0px 0px 105px;
+    width: 81px;
+    height:74px;
+    position: relative;
+}
+
+.topBar{
+    width:287px;
+    height:45px;
+}
+
+#iphone{
+    background-image: url("../images/views/common/iphonewhite.png");
+    background-repeat: no-repeat;
+    margin:auto;
+    height: 750px;
+    top: 36px;
+    width: 400px;
+}
+
+#mainscreen{
+    background-image: url("../images/views/common/bg.png");
+    height: 430px;
+    width: 289px;
+    margin: 112px 59px;
+}
+
+#iphone *{
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+    
+#mediaBubble{
+    
+    height: 372px;
+    margin: -44px 0 0 169px;
+    position: absolute;
+    width: 348px;
+}
+
+
+#mediaFbLike{
+
+    margin: 69px 0 0 256px;
+    position: absolute;
+    width: 348px;
+
+}
+
+.twitter-follow-button{
+
+    margin: 179px 0 0 266px;
+    position: absolute;
+
+
+}
+
+.twitter-share-button{
+
+    margin: 146px 0 0 292px;
+    position: absolute;
+
+}
+
+/*----------Start of FirstView----------*/
+
+#firstview{
+
+}
+
+#fvToolTipOut{
+
+    width:396px;
+    margin: -1px 0px 0px 248px;
+    height: 352px;
+
+}
+
+#tooltip{
+
+    margin-top: 17px;
+    width:287px;
+    height:51px;
+    
+
+}
+
+#logo{
+    margin: 70px 0px 40px 0px;
+    width:287px;
+    height:93px;
+
+}
+
+#btnCamera{
+    background-image: url("../images/views/first/btn_post.png");
+    height: 114px;
+    width: 125px;
+    
+    margin: 170px 50px 0px 80px;
+}
+
+#divup{
+    margin: 290px 0px 40px 0px;
+    width:287px;
+    height:14px;
+    
+}
+
+#txtName{
+
+     margin:315px 0 0 65px;
+     text-align: center;
+     color: grey;
+     
+
+}
+
+#divdown{
+    margin: 348px 0px 40px 0px;
+    width:287px;
+    height:14px;
+}
+
+
+#btnfb{
+
+    margin: 373px 0px 0px 65px;
+    width:158px;
+    height:35px;
+}
+
+#fb-auth{
+    margin:308px 0px 0px 65px;
+    width:158px;
+    height:35px;
+
+}
+
+
+/*----------End of FirstView----------*/
+
+/*----------Start of ChallengeView----------*/
+
+#challengeview{
+
+}
+
+#chLoading{
+
+    height: 50px;
+    margin: 203px 0 0 119px;
+    width: 50px
+}
+
+#cvToolTipOut{
+
+    width:396px;
+    margin: -1px 0px 0px 293px;
+    height: 352px;
+
+}
+
+#challengeheader{
+
+    margin-top: 40px;
+    width:285px;
+    height:47px;
+}
+
+
+#bg{
+    margin: 80px 0px 0px 2px;
+    width:285px;
+    height:272px;
+}
+
+#txtChallenge{
+
+    margin: 212px 0px 0px 50px;
+    width: 210px;
+
+}
+
+#selectFriend{
+
+    margin: 147px 0px 0px 51px;
+    width: 210px;
+}
+
+#selectLoc{
+
+    margin: 280px 0px 0px 51px;
+    width: 210px;
+}
+
+#map {
+        visibility: hidden;
+        height: 400px;
+        width: 600px;
+        border: 1px solid #333;
+        margin-top: 0.6em;
+      }
+
+
+
+
+
+/*----------End of SecondView----------*/
+
+/*----------Start of DemoChallengeView----------*/
+
+
+/* ------- Start of Recorder --------- */
+
+#disp
+{
+    font-size: 1.75em;
+    font-weight: bold;
+    width: 7.65em;
+    font-family: "Courier New";
+    padding: 0.15em;
+}
+
+#butt 
+{
+    font-size: 1em;
+    width: 8em;
+    font-family: "Courier New";
+}
+
+#butt2 
+{
+    font-size: 1em;
+    width: 5em;
+    font-family: "Courier New";
+}
+
+#lap
+{
+    margin-top: 0.5em;
+}
+
+#header{
+
+    text-align:center;
+}
+
+/* ------- End of Recorder --------- */
+
+
+
+#dcToolTip{
+
+     margin-top: 15px;
+     width: 287px;
+     height:98px;
+}
+
+#dcToolTipOut{
+
+    width:396px;
+    margin: -1px 0px 0px 248px;
+    height: 352px;
+}
+
+#dcHeader{
+
+    margin-top: 15px;
+    width: 287px;
+    height:38px;
+}
+
+#dcRec{
+
+    width:68px;
+    height:32px;
+    margin: 103px 0px 0px 12px;
+    display: none;
+}
+
+#descToolTip {
+    color: white;
+    margin: 55px 0 0 34px;
+    text-align: center;
+    width: 220px;
+    font-size:11px;
+    font-family:helvetica;
+}
+
+#btnStartStop{
+
+    margin: 115px 0px 0px 50px;
+    width:187px;
+    height:177px;
+}
+
+#dcBgTimer{
+
+    margin:300px 0px 0px 50px;
+    width:187px;
+    height:114px;
+
+}
+
+#dcNumbers{
+
+    margin-top:327px;
+    width:42px;
+    height:60px;
+
+}
+
+#dcNumbers #dcMinuteOne{
+
+    margin-left: 97px;
+    
+}
+
+#dcNumbers #dcMinuteTwo{
+
+    margin-left: 68px;
+}
+
+#dcNumbers #dcSecondTwo{
+
+    margin-left: 145px;
+    
+}
+
+#dcNumbers #dcSecondOne{
+
+    margin-left: 174px;
+}
+
+#recorderApp{
+
+    background-color: transparent;    
+    position:absolute;
+    z-index:1;
+    width:240px;
+    height:160px;
+    margin:236px 0 0 508px;
+    visibility: hidden;
+}
+
+/* ------- End of DemoChallengeView ------- */
+
+
+/*----------Start of StreamView----------*/
+
+#streamview {
+
+      font-family: helvetica;
+      color: grey;
+}
+
+
+
+#svToolTipOut1{
+
+    width:396px;
+    margin: 205px 0px 0px -412px;
+    height: 352px;
+    display: none;
+
+}
+
+#svToolTipOut2{
+
+    width:396px;
+    margin: 205px 0px 0px -416px;
+    height: 352px;
+    display: none;
+    
+}
+
+#svToolTipOut3{
+
+    width:396px;
+    margin: 272px 0px 0px 248px;
+    height: 352px;
+    display: none;
+    
+}
+
+#svToolTipOut4{
+
+    width:396px;
+    margin: 2px 0px 0px 303px;
+    height: 352px;
+    display: none;
+    
+}
+
+#svToolTipOut5{
+
+    width:396px;
+    margin: 206px 0px 0px -415px;
+    height: 352px;
+    display: none;
+    
+}
+
+
+
+#svContent{
+    display: none;
+}
+
+#svBckg{
+
+    margin: 40px 0px 0px 0px;
+    width:287px;
+    height:296px;
+
+}
+
+#svText{
+
+}
+
+#svTitle{
+
+    margin: 65px 0px 0px 40px;
+    text-transform:uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+
+}
+
+#svChallenge{
+
+    font-size: 10px;
+    
+    width: 287px;
+    position: relative;
+    text-align: center;
+}
+
+#svChallenge *{
+    position: relative;
+}
+
+#svChallengeMsg{
+    color: grey;
+    font-size: 9px;
+    font-style: italic;
+}
+
+
+
+#highlightPlayer{
+    color: #1771b1;
+    padding-right: 2px;
+
+}
+
+#highlightFriend{
+    color: #1771b1
+
+    ;
+
+}
+
+.highlightAction{
+    color: #ff5357; 
+  
+}
+
+#svPlayerFriend{
+
+    margin-top: 138px;
+}
+
+#svCheerLeft{
+
+    width:99px;
+    height:32px;
+    margin:53px 0px 0px 20px;
+}
+
+#svVsLabel{
+
+    width: 62px;
+    height:46px;
+    margin: 14px 0px 0px 112px
+
+}
+
+#svCheerRight{
+
+    width:99px;
+    height:32px;
+    margin: 53px 0px 0px 167px;
+}
+
+#svWinStar{
+
+    width: 36px;
+    height: 35px;
+    margin: -20px 0px 0px 65px;
+    z-index: 1;
+    display: none;
+
+}
+
+
+#svPoints5{
+
+    height: 42px;
+    margin: 230px 0 0 90px;
+    width: 42px;
+    z-index: 1;
+    display: none;
+
+}
+      
+
+#svPoints20{
+
+    width: 42px;
+    height: 42px;
+    margin: -8px 0 0 90px;
+    display: none;
+    z-index:2;
+}
+
+
+#svVoteBarPlayer{
+
+    width:28px;
+    height:13px;
+    margin-top:47px;
+    margin-left:87px;
+
+}
+
+
+
+.svNumVote{
+
+     font-size:10px;
+
+}
+
+#svNumVotePlayer{
+
+   margin: 37px 0px 0px 96px;
+
+}
+
+#svNumVoteFriend{
+
+    margin: 37px 0px 0px 187px;
+
+}
+
+
+
+#svVoteBarFriend{
+
+    
+    width:28px;
+    height:13px;
+    margin-top:48px;
+    margin-left:175px;
+}
+
+
+#svFriendProfilePic{
+
+    margin: 2px 0px 0px 198px;
+    border-radius:  50%;
+    border: 2px solid #1771b1;
+}
+
+#svPlayerProfilePic{
+
+    margin: 2px 0px 0px 36px;
+    border-radius: 50%;
+    border: 2px solid #1771b1;
+}
+
+
+#svChallengeBox{
+
+    background-image: url('../images/views/stream/bg_challengebox_on.png');
+    width:256px;
+    height:105px;
+    margin: 215px 0px 0px 15px;
+    display: none;
+
+
+}   
+
+#svCBTitle{
+
+     margin: 15px 0px 0px 30px;
+     font-size:10px;
+     z-index:1;
+     color: #1771b1;
+
+}
+
+#svTATitle{
+
+     margin: 15px 0px 0px 168px;
+     font-size:10px;
+     z-index:1;
+}
+
+#svBtnAudio1{
+
+    width:71px;
+    height:54px;
+    margin: 32px 0px 0px 11px;
+
+}
+
+#svBtnAudio2{
+
+    width:71px;
+    height:54px;
+    margin: 32px 0 0 174px;
+}
+
+#svBtnPlus{
+
+    width:71px;
+    height:54px;
+    margin: 35px 0 0 94px;
+}
+
+#svTalkAbout{
+
+    background-image: url('../images/views/stream/bg_talkabout_on.png');
+    width:256px;
+    height:105px;
+    margin: 215px 0px 0px 15px;
+    display: none;
+
+}
+
+
+#svComment1{
+
+    border-radius:50%;
+    border: 2px solid #4a7e03;
+    margin: 248px 0px 0px 26px;
+    width:25px;
+    height:25px;
+    display: none;
+}
+
+#svComment1Name{
+
+    color: #1771b1;
+    font-size: 8px;
+    margin: 250px 0 0 60px;
+    width: 200px;
+    display: none;
+}    
+
+
+#svComment2 {
+
+    border-radius:50%;
+    border: 2px solid #4a7e03;
+    margin: 279px 0 0 26px;
+    width:25px;
+    height:25px;
+    display: none;
+}
+
+
+#svComment2Name {
+
+    color: #1771b1;
+    font-size: 8px;
+    margin: 281px 0 0 60px;
+    width: 200px;
+    display: none;
+}
+
+#svComment1Msg{
+
+    font-size: 8px;
+    margin: 261px 0 0 60px;
+    width: 200px;
+    display: none;
+
+
+}
+
+#svComment2Msg{
+
+    font-size: 8px;
+    margin: 289px 0 0 60px;
+    width: 200px;
+    display: none;
+}
+
+#svPlayerTime{
+
+    display: none;
+    margin: 76px 0 0 20px;
+    z-index: 1;
+    font-size:10px;
+    font-color:black;
+    font-weight:bold;
+}
+
+
+#svFriendTime{
+
+    display: none;
+    margin: 77px 0 0 184px;
+    z-index: 1;
+    font-size:10px;
+    font-color:black;
+    font-weight:bold;
+}
+
+/*----------End of StreamView----------*/
+
+
+/*----------Start of PlayercardView----------*/
+
+#playercardview {
+
+    
+
+}
+
+#pcvToolTipOut1{
+
+    width:396px;
+    margin: -1px 0px 0px 298px;
+    height: 352px;
+    display: none;
+}
+
+#pcvContent{
+
+    margin: 0px 0 0 0;
+    color: 'grey';
+    font-family: helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+#pcvPlayerCard{
+
+    width:287px;
+    height:178px;
+    margin: 74px 0 0 0;
+}
+
+#pcvPlayerProfilePic{
+    height: 92px;
+    margin: 123px 0 0 24px;
+    width: 87px;   
+}
+
+#pcvIndicator1{
+
+     width:150px;
+     height:21px;
+     margin: 131px 0 0 123px;
+}
+
+#pcvIndicTitle1{  
+
+    margin: 122px 0 0 127px;
+    width: 150px;
+}
+
+#pcvIndicator2{
+
+     width:150px;
+     height:21px;
+     margin: 160px 0 0 123px;
+}
+
+#pcvIndicTitle2{
+
+    margin: 152px 0 0 127px;
+    width: 150px;
+}
+
+
+#pcvIndicator3{
+
+     width:150px;
+     height:21px;
+     margin:189px 0 0 119px;
+}
+
+#pcvIndicTitle3{  
+
+    margin: 181px 0 0 127px;
+    width: 150px;
+}
+
+#pcvIndicLU{  
+
+    width:157px;
+    height:23px;
+    margin:189px 0 0 118px;
+    display: none;
+}
+
+#pcvIndicator4{
+
+     width:150px;
+     height:21px;
+     margin: 218px 0 0 123px;
+}
+
+#pcvIndicTitle4{   
+
+    margin: 210px 0 0 127px;
+    width: 150px;
+}
+
+
+#pcvIndicBar{
+
+    height: 11px;
+    margin: 194px 0 0 212px;
+    width: 28px;
+    z-index:1;
+
+}
+
+#pcvToolTip{
+
+    width: 287px;
+    height: 193px;
+    margin: 248px 0 0;
+
+}
+
+#pcvBtnOk{
+
+    height: 39px;
+    margin: 401px 0 0 212px;
+    width: 65px;
+
+}
+
+#pcvIndic1Lvl{
+    margin: 122px 0 0 248px;
+    width: 150px;
+}
+
+#pcvIndic2Lvl{
+
+    margin: 152px 0 0 248px;
+    width: 50px;
+
+
+}
+
+#pcvIndic3Lvl{
+
+    margin: 182px 0 0 248px;
+    width: 50px;
+
+}
+
+#pcvIndic4Lvl{
+
+    margin: 210px 0 0 248px;
+    width: 50px;
+}
+
+#pcvPostFb{
+
+    height: 83px;
+    margin: 247px 0 0;
+    width: 287px;
+}
+
+#pcvBtnOn{
+
+    height: 39px;
+    margin: 301px 0 0 94px;
+    width: 82px;
+}
+
+#pcvBtnOff{
+
+    height: 39px;
+    margin: 301px 0 0 94px;
+    width: 82px;
+    display:none;
+}
+
+/*----------End of PlacercardView----------*/
+
+
+/*----------Start of EndView----------*/
+
+#shareview{
+
+    
+}
+
+#evSurvey{
+
+    display: none;
+}
+
+
+#shvFbPreview{
+
+    width:287px;
+    height:170px;
+    margin: 15px 0 0;
+
+}
+
+#shvBckgChallenge{
+
+    width:287px;
+    height:243px;
+    margin:185px 0 0;
+
+}
+
+/*----------End of EndView----------*/
+
+    
+
+
